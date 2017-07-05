@@ -1,0 +1,31 @@
+Social Web Data Mining and Knowledge Discovery
+
+The execution is separated into two phases:
+First execute the python files from the Data Collection Directory for collecting data from various social media sites.
+The Collection directory includes of two ways of collecting data: 1. from Twitter 2. Using Crawlers
+You'll need to install mongodb into your system before going for the data collection phase.
+
+After collecting sufficient amount of data you may procees with the Data analysis directory.
+It includes of a shell script that will help you execute all of the analysis models at a time resulting into the final output of the Project
+
+
+Language:
+Python 2.7.2
+
+Database:
+MongoDB
+
+Libraries required:
+PyMongo
+ntlk corpus of 5 GB
+matplotlib
+networkx
+twitter
+tweepy
+scrapy
+scipy
+numpy
+BeautifulSoup4
+RottenTomatoes
+urllib2
+

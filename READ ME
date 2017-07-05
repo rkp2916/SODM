@@ -1,0 +1,41 @@
+This document has been created on a Linux System Ubuntu 12.04, there may be a possibilty of viewing this on Windows system. For viewing in Windows please use notepad++ preferably.
+
+Social Web Data Mining and Knowledge Discovery
+
+The execution is separated into two phases:
+First execute the python files from the Data Collection Directory for collecting data from various social media sites.
+The Collection directory includes of two ways of collecting data: 1. from Twitter 2. Using Crawlers
+You'll need to install mongodb into your system before going for the data collection phase.
+
+After collecting sufficient amount of data you may procees with the Data analysis directory.
+It includes of a shell script that will help you execute all of the analysis models at a time resulting into the final output of the Project
+
+
+Language:
+Python 2.7.2
+
+Database:
+MongoDB
+
+Libraries required:
+PyMongo
+ntlk corpus of 5 GB
+matplotlib
+networkx
+twitter
+tweepy
+scrapy
+scipy
+numpy
+BeautifulSoup4
+RottenTomatoes
+urllib2
+codecs
+
+*While installing these packages you may encounter dependancy issues depending on the system you're operating on.
+
+
+Limitations:
+The collection phase need to be executed at regular time interval to get updated data from the Social web as the 4 Vs of the Data mining suggest. Also for getting useful and reliable result, one must collect ample amount of data for which one may need a high-speed Intenet connection. We made use of 4 Mbps broadband connection for the data collection however anything more than 1.0 Mbps would work fine.
+
+Note: We used Ubuntu 12.04 Precise Penguin edition for running the project succefully.
